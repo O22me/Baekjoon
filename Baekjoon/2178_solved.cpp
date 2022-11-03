@@ -12,7 +12,7 @@ using namespace std;
 int n, m;
 char maze[101][101];					//미로를 저장할 배열
 int distance_[101][101];				//각 배열별로 최단거리
-bool visited[101][101] = { false, };	//방문하지 않은 곳은 false로 표시.
+bool visited[101][101] = { false, };	//방문하지 않은 곳은 false로 표시
 
 void bfs(int x, int y)	//가로길이, 세로길이
 {
